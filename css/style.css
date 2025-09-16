@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: orangered;
+    height: 3rem;
+}
+
+header i{
+    color: white;
+    padding: 0.25rem 0 0.25rem 0.5rem;
+}
+
+header .container{
+    background-color: orangered;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    align-items: center;
+}
+
+header img{
+    height: 2rem;
+}
+
+header .list-unstyled{
+    list-style: none;
+    display: flex;
+}
+
+a{
+    padding: 0.25rem 0.5rem 0.25rem 0;
+    color: white;
+    text-decoration: none;
+}
