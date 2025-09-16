@@ -52,13 +52,14 @@ a{
     display: flex;
     justify-content: space-between;
     gap: 2rem;
+    flex-wrap: wrap;
 }
 
 .product-card{
     position: relative;
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 25%;
 }
 
 .card-body{
