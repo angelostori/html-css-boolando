@@ -219,3 +219,16 @@ a{
             color: red;
         }
     }
+/* FOOTER */
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+}
+
+.f_container{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+}
